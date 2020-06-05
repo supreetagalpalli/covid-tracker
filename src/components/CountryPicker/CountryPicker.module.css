@@ -1,0 +1,11 @@
+.formControl {
+  justify-content: center;
+}
+
+.divFormControl {
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  justify-content: center;
+  width: 30%;
+}

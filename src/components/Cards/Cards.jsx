@@ -30,7 +30,7 @@ function Cards({ data: { confirmed, recovered, deaths, lastUpdate } }) {
                 separator=","
               />
             </Typography>
-            <Typography color="textSecondary" gutterButtom>
+            <Typography color="textSecondary" gutterBottom>
               {new Date(lastUpdate).toDateString()}
             </Typography>
             <Typography variant="body2">
@@ -46,7 +46,7 @@ function Cards({ data: { confirmed, recovered, deaths, lastUpdate } }) {
           className={cx(styles.card, styles.recovered)}
         >
           <CardContent>
-            <Typography color="textSecondary" gutterButtom>
+            <Typography color="textSecondary" gutterBottom>
               Recovered
             </Typography>
             <Typography variant="h5">
@@ -57,7 +57,7 @@ function Cards({ data: { confirmed, recovered, deaths, lastUpdate } }) {
                 separator=","
               />
             </Typography>
-            <Typography color="textSecondary" gutterButtom>
+            <Typography color="textSecondary" gutterBottom>
               {new Date(lastUpdate).toDateString()}
             </Typography>
             <Typography variant="body2">
@@ -74,7 +74,7 @@ function Cards({ data: { confirmed, recovered, deaths, lastUpdate } }) {
         >
           {' '}
           <CardContent>
-            <Typography color="textSecondary" gutterButtom>
+            <Typography color="textSecondary" gutterBottom>
               Deaths
             </Typography>
             <Typography variant="h5">
@@ -85,7 +85,7 @@ function Cards({ data: { confirmed, recovered, deaths, lastUpdate } }) {
                 separator=","
               />
             </Typography>
-            <Typography color="textSecondary" gutterButtom>
+            <Typography color="textSecondary" gutterBottom>
               {new Date(lastUpdate).toDateString()}
             </Typography>
             <Typography variant="body2">

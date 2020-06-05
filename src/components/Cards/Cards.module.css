@@ -1,8 +1,13 @@
 .conatiner {
   margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .card {
-  margin: 0 2% !important;
+  margin: 0 3% !important;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 .recovered {
   border-bottom: 10px solid rgba(0, 255, 0, 0.5);
